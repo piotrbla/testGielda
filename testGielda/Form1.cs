@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ICSharpCode.SharpZipLib.Zip;
 
 namespace testGielda
 {
@@ -19,7 +20,10 @@ namespace testGielda
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            //ICSharpCode.SharpZipLib.Zip.u
+            //System.IO.Compression.ZipFile.ExtractToDirectory("omegacgl.zip", "exctract");
+            FastZip fz = new FastZip();
+            fz.ExtractZip("omegacgl.zip", "extract", null);
         }
     }
 }
