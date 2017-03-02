@@ -1,0 +1,2 @@
+# testGielda
+testowe repozytorium 
